@@ -7,13 +7,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: hsl(185, 75%, 39%) ;
-    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
-    /* background-position: left top, right bottom;
-    background-repeat: no-repeat, repeat;
-    background-size: 200% 100%;
-    background-origin: content-box; */
-
+    background-color: hsl(185, 75%, 39%);
+    background: url(./images/bg-pattern-top.svg) -45rem -35rem , url(./images/bg-pattern-bottom.svg) 18rem 22rem;
+    background-color: hsl(185, 75%, 39%);
+    background-repeat: no-repeat;
+    /* background-position: 200px 400px; */
 }
 
 img{
@@ -91,6 +89,11 @@ div span{
 @media screen and (min-width:675px){
     .container{
         margin-top: 10rem;
+    }
+
+    body{
+        background: url(./images/bg-pattern-top.svg) -20rem -30rem no-repeat, url(./images/bg-pattern-bottom.svg)45rem 22rem no-repeat;
+        background-color: hsl(185, 75%, 39%);
     }
 }
 
